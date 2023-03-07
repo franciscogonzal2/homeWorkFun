@@ -1,0 +1,38 @@
+.homeworkCart{
+    margin: 2rem;
+    border: 2px solid #ff8d01;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.listOf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btndelete{
+    background: orange;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.btndelete:hover{
+    background: red;
+    cursor: pointer;
+}
+.btndone{
+    background: orange;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+.btndone:hover{
+    background: green;
+    cursor: pointer;
+}
+
+.title{
+    width: 100%;
+    margin-left: 3rem;
+}

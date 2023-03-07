@@ -1,0 +1,41 @@
+.input {
+    background: silver;
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 1rem;
+    max-width: 20rem;
+}
+ .input:focus{
+    border: 1px solid green;
+    background: white;
+ }
+ .btn{
+    color: aliceblue;
+    background-color: #393939;
+    font-family: 'Lucida Sans';
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 3rem;
+ }
+ .btn:hover{
+    background-color: #2E17F0;
+    cursor: pointer;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ff8d01;
+    margin: 3rem;
+}
+.title{
+    margin-left: 3rem;
+    color: #ff8d01;
+}
